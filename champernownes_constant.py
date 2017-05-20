@@ -13,6 +13,8 @@ d2 = 5
 
 digit_counts = [0,9,90,900,9000,90000,900000]
 
+# included value for 10**1 in fencepost because you never round
+# down when dividing by 1
 magic_nums = [1,1]
 
 for i in range(2,7):
